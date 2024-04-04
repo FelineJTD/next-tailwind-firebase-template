@@ -1,0 +1,138 @@
+/* text.css */
+
+.font-header {
+  font-family: var(--just-cosmic);
+}
+
+.font-body {
+  font-family: var(--red-hat-text);
+}
+
+.font-display {
+  font-family: var(--red-hat-display);
+}
+
+.font-mono {
+  font-family: var(--red-hat-mono);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--just-cosmic);
+  font-style: normal;
+}
+
+a,
+p,
+input,
+select {
+  font-family: var(--red-hat-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+button,
+th,
+td {
+  font-family: var(--red-hat-display);
+  font-style: normal;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  font-family: var(--red-hat-display);
+  font-style: normal;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-family: var(--red-hat-display);
+  font-style: normal;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+}
+
+::placeholder {
+  font-family: var(--red-hat-display);
+  font-style: normal;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+      font-size: 32px;
+      line-height: 40px;
+  }
+
+  h2 {
+      font-size: 22px;
+      line-height: 26px;
+  }
+
+  h3 {
+      font-size: 20px;
+      line-height: 24px;
+  }
+
+  h4 {
+      font-size: 18px;
+      line-height: 22px;
+  }
+
+  h5 {
+      font-size: 16px;
+      line-height: 20px;
+  }
+
+  h6 {
+      font-size: 14px;
+      line-height: 16px;
+  }
+}

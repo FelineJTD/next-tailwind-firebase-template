@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply font-sans;
+  scrollbar-color: #24222F #E6E4D7;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+/* SCROLLBAR */
+body::-webkit-scrollbar {
+  @apply w-2;
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-neutral-300;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply bg-neutral-900;
+}
+
+/* SCROLLBAR HIDE */
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
